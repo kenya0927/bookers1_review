@@ -2,4 +2,5 @@
 <%= render "books/index",books:@books %>
 
 <h2>New Book</h2>
+<%= render "layouts/errors",obj:@book %>
 <%= render "books/form",book:@book %>
